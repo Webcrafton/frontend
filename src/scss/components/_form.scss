@@ -1,0 +1,49 @@
+input:focus {
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  @include font;
+  font-size: 16px !important;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #5E6D80;
+  
+
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  @include font;
+  line-height: 30px;
+  padding-bottom: 5px;
+
+}
+ .btn-lg{
+   border-radius: 0px!important;
+ }
+.form-control {
+  margin-bottom: 20px!important;
+  background-color: #F4F4F4!important;
+  height: 66px!important;
+  border-radius: 20px!important;
+  border: 0px!important;
+  margin-left: 15px!important;
+  margin-right: 15px!important;
+  padding-left: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .form-control {
+    margin-bottom: 20px!important;
+    background-color: #F4F4F4!important;
+    height: 55px!important;
+    border-radius: 20px!important;
+    border: 0px!important;
+  }
+
+}

@@ -1,0 +1,50 @@
+
+.site-footer {
+    background-image: linear-gradient(to right, #eaf4ff 17%, #a8d8fa 76%);
+    padding-top: 48px;
+    .border-bottom {
+        border-color: #69a6d1;
+    }
+    .footer-menu{
+        ul{
+            li{
+               display: inline-block;
+            }
+            a{
+                display:block!important;
+                color: $purple;
+                padding: 0px;
+                padding-right: 1.6em;
+                &:hover{
+                    color: $pink;
+                }
+            }
+        }
+    }
+    .social-icons{
+        text-align: right;
+        ul{
+            li{
+               display: inline-block;
+            }
+            a{
+                display:block!important;
+                color: $purple;
+                padding: 0px;
+                padding-left: 0.8em;
+                &:hover{
+                    color: $pink;
+                }
+            }
+        } 
+    }
+}
+
+@media (max-width: 768px) {
+    .site-footer {
+        text-align: center;
+    }  
+    .social-icons{
+        text-align: center!important;
+    }
+}

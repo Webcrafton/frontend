@@ -1,0 +1,36 @@
+.title-heading{
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+.title-heading h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $white;
+}
+
+.titles_nossos h3{
+    color: $white;
+    font-size: 44px;
+}
+.titles_nossos p{
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white;
+    padding-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .title-heading{
+        padding-bottom: 40px;
+    }
+
+}

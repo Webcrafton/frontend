@@ -1,0 +1,21 @@
+
+@import 'helpers/_variables';
+@import 'helpers/_mixins';
+@import 'base/_reset';
+@import 'base/_typography';
+
+@import 'helpers/_functions';
+@import 'components/_buttons';
+@import 'components/_form';
+@import 'components/_title';
+@import 'components/_slider';
+
+@import 'layout/_footer';
+@import 'layout/_header';
+
+@import 'pages/_index';
+@import 'pages/_course';
+@import 'pages/_curriculumn';
+@import 'pages/_Competitions';
+@import 'pages/_single-competition';
+

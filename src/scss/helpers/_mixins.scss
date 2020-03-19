@@ -1,0 +1,32 @@
+// Font Mixins
+@mixin font {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+// Box Shaddow
+@mixin black-box-shadow {
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.16);
+}
+
+@mixin blue-box-shadow {
+  .box-shadow-blue {
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 0 0 12px rgba(70, 141, 240, 0.257);
+
+    &:hover {
+      z-index: 9999;
+      box-shadow: 0 14px 18px rgba(70, 141, 240, 0.199);
+      transform: translateY(-3px);
+      -webkit-transform: translateY(-3px);
+    }
+  }
+}
